@@ -6,14 +6,14 @@ import OrbitalOdyssey from '../../assets/orbital-odyssey.png';
 import Weather from '../../assets/weatherapp.png';
 import NoteTaker from '../../assets/notetaker.png';
 import ResumeCreator from '../../assets/resumecreator.png';
-import PinkFlowers from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
+import Hallway from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
 
 
 
 export default function Portfolio() {
   return (
     <Parallax
-    bgImage={PinkFlowers}
+    bgImage={Hallway}
     bgImageAlt=""
     strength={800}
     className="about-image"

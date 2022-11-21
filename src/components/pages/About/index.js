@@ -1,13 +1,13 @@
 import React from 'react';
 import { Parallax } from "react-parallax";
-import Sunset from '../../assets/bady-abbas-hxi_yRxODNc-unsplash.jpg';
+import Squares from '../../assets/bady-abbas-hxi_yRxODNc-unsplash.jpg';
 // import Camille from '../../assets/images.png';
 import './about.css';
 
 export default function About() {
   return (
     <Parallax
-    bgImage={Sunset}
+    bgImage={Squares}
     bgImageAlt=""
     strength={800}
     className="about-image"

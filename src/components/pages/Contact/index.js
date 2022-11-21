@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './contact.css';
 import Form from 'react-bootstrap/Form';
 import { Parallax } from "react-parallax";
-import PinkYellow from '../../assets/roma-kaiuk-1HN3li_kDVw-unsplash.jpg';
+import Roses from '../../assets/roma-kaiuk-1HN3li_kDVw-unsplash.jpg';
 
 export default function Contact() {
   const [email, setEmail] = useState("");
@@ -57,7 +57,7 @@ export default function Contact() {
   return (
     <Parallax
     
-    bgImage={PinkYellow}
+    bgImage={Roses}
     bgImageAlt=""
     strength={800}
     className="contact-image"
