@@ -4,7 +4,7 @@
 }
 
 .about {
-    padding: 5rem 0rem 0rem 5rem;
+    padding: 10rem 0rem 0rem 5rem;
 }
 
 .content-about {
@@ -15,3 +15,7 @@
     border-radius: 30px;
     text-align: center;
   }
+
+.name {
+    letter-spacing: 10px;
+}

@@ -1,0 +1,31 @@
+.container-resume {
+    padding: 15rem 0rem 0rem 0rem;
+}
+
+.resume {
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    color: black;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.resume-link {
+    color: black;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    color: white;
+}
+
+.card-body {
+    background: rgba(255, 255, 255, 0.256);
+}
+
+.resume-title {
+    letter-spacing: 10px;
+}

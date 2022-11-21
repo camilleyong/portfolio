@@ -11,8 +11,9 @@ export default function Resume() {
     strength={800}
     className="about-image"
   >
+    <div className="container-resume">
     <div className='resume'>
-      <h1>My Resume</h1>
+      <h1 className='resume-title'>RESUME</h1>
       <p>
         Take a look at my resume <a className="resume-link"
         target="_blank"
@@ -41,6 +42,7 @@ export default function Resume() {
             </div>
           </div>
       </article>
+    </div>
     </div>
     </Parallax>
   );

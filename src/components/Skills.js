@@ -16,7 +16,7 @@ export default function Skills() {
   return (
     <div className="container">
     <div className="horizontal-container row justify-content-center">
-      <h1 className='port-title'>SKILLS</h1>
+      <h1 className='skills-title'>SKILLS</h1>
       <img className="col-2 col-md-1 icon" src={Html} alt=""></img>
       <img className="col-2 col-md-1 icon" src={Css} alt=""></img>
       <img className="col-2 col-md-1 icon" src={JavaScript} alt=""></img>
