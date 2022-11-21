@@ -14,7 +14,9 @@ import Handlebars from "../icons/handlebars.png";
 
 export default function Skills() {
   return (
-    <div className="horizontal-container row">
+    <div className="container">
+    <div className="horizontal-container row justify-content-center">
+      <h1 className='port-title'>SKILLS</h1>
       <img className="col-2 col-md-1 icon" src={Html} alt=""></img>
       <img className="col-2 col-md-1 icon" src={Css} alt=""></img>
       <img className="col-2 col-md-1 icon" src={JavaScript} alt=""></img>
@@ -28,6 +30,7 @@ export default function Skills() {
       <img className="col-2 col-md-1 icon" src={Mysql} alt=""></img>
       <img className="col-2 col-md-1 icon" src={Github} alt=""></img>
       <img className="col-2 col-md-1 icon" src={Handlebars} alt=""></img>
+      </div>
     </div>
   );
 }
