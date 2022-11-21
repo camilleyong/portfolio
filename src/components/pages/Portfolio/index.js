@@ -6,7 +6,7 @@ import OrbitalOdyssey from '../../assets/orbital-odyssey.png';
 import Weather from '../../assets/weatherapp.png';
 import NoteTaker from '../../assets/notetaker.png';
 import ResumeCreator from '../../assets/resumecreator.png';
-import PinkFlowers from '../../assets/allison-saeng-PNygokR4vW4-unsplash.jpg'
+import PinkFlowers from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
 
 
 

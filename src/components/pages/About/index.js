@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from "react-parallax";
-import Sunset from '../../assets/mohammad-alizade-fgz9RfetkLQ-unsplash.jpg';
+import Sunset from '../../assets/bady-abbas-hxi_yRxODNc-unsplash.jpg';
 // import Camille from '../../assets/images.png';
 import './about.css';
 

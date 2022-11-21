@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from "react-parallax";
-import PurpleFlowers from '../../assets/anne-kristin-pUKpO_w3PSM-unsplash.jpg';
+import PurpleFlowers from '../../assets/augustine-wong-T0BYurbDK_M-unsplash.jpg';
 // import Camille from '../../assets/images.png';
 import './home.css';
 

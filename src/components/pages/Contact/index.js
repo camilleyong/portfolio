@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './contact.css';
 import Form from 'react-bootstrap/Form';
 import { Parallax } from "react-parallax";
-import PinkYellow from '../../assets/anne-kristin-7NLzvKYQgdc-unsplash.jpg';
+import PinkYellow from '../../assets/roma-kaiuk-1HN3li_kDVw-unsplash.jpg';
 
 export default function Contact() {
   const [email, setEmail] = useState("");
