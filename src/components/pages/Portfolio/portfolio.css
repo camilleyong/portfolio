@@ -6,9 +6,8 @@
 }
 
 .carousel {
-    width: 90%;
-    height: 90%;
-    padding: 1.5rem;
+    width: 85%;
+    padding: 2rem;
 }
 
 .port-title {
@@ -18,4 +17,10 @@
     border-radius: 30px;
     text-align: center;
     width: 90%;
+}
+
+.portfolio-content {
+    background: rgba(170, 165, 165, 0.569);
+    color: white;
+    border-radius: 30px;
 }

@@ -37,7 +37,7 @@ export default function Portfolio() {
         /> 
 
         </a>
-        <Carousel.Caption>
+        <Carousel.Caption className ="portfolio-content">
           <h5 className='portfolio-title'>Orbital Odyssey Project</h5>
           <p className="info">Click image to be directed to deployed website.</p>
           <p className='info'>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
@@ -60,7 +60,7 @@ export default function Portfolio() {
           alt="screenshot of note taker app"
         />
         </a>
-        <Carousel.Caption>
+        <Carousel.Caption className ="portfolio-content">
           <h5 className='portfolio-title'>Note Taker</h5>
           <p className="info">Click image to be directed to deployed website.</p>
           <p className='info'>Tools Used: Express.js, JavaScript, HTML, CSS, Bootstrap, and FontAwesome</p>
@@ -85,7 +85,7 @@ export default function Portfolio() {
         />
         </a>
 
-        <Carousel.Caption>
+        <Carousel.Caption className ="portfolio-content">
           <h5 className='portfolio-title'>Weather API</h5>
           <p className="info">Click image to be directed to deployed website.</p>
           <p className='info'>Tools Used: OpenWeather API, Bootstrap, JQuery, Moment js, Google Fonts, JavaScript, CSS, and HTML</p>
@@ -110,7 +110,7 @@ export default function Portfolio() {
         />
         </a>
 
-        <Carousel.Caption>
+        <Carousel.Caption className="portfolio-content">
           <h5  className='portfolio-title'>Resume Creator</h5>
           <p className="info">Click image to be directed to deployed website.</p>
           <p className='info'>Tools Used: Node.js, Express, Handlebars, HTML/CSS, Bootstrap, MYSQL, Sequelize, Heroku</p>
