@@ -1,0 +1,21 @@
+.portfolio-container {
+    justify-content: center;
+    position: relative;
+    padding: 2rem;
+    left: 7rem;
+}
+
+.carousel {
+    width: 90%;
+    height: 90%;
+    padding: 1.5rem;
+}
+
+.port-title {
+    background: rgba(255, 255, 255, 0.4);
+    color: black;
+    letter-spacing: 5px;
+    border-radius: 30px;
+    text-align: center;
+    width: 90%;
+}

@@ -1,0 +1,22 @@
+.home-image {
+    position: relative;
+    height: 100vh;
+}
+
+.intro {
+    padding: 20rem 0rem 0rem 5rem;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    color: black;
+    padding: 1rem ;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    border-radius: 30px;
+    text-align: center;
+
+  }
+
+

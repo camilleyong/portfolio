@@ -1,0 +1,17 @@
+.about-image {
+    position: relative;
+    height: 100vh;
+}
+
+.about {
+    padding: 5rem 0rem 0rem 5rem;
+}
+
+.content-about {
+    background: rgba(255, 255, 255, 0.4);
+    color: black;
+    padding: 1rem ;
+    letter-spacing: 5px;
+    border-radius: 30px;
+    text-align: center;
+  }

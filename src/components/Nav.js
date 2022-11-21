@@ -1,4 +1,4 @@
-// import './css/portfoliocontainer.css';
+import './css/portfoliocontainer.css';
 import './css/nav.css';
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
@@ -9,6 +9,7 @@ export default function SideBar() {
         onSelect={(selected) => {
             console.log(selected);
             }}
+        className="sidenav"
         >
         <Toggle />
         <Nav defaultSelected="home">
