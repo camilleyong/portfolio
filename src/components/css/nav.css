@@ -1,5 +1,31 @@
-.sidenav {
-    background-color: black !important;
-    position: fixed !important;
-    font-family: 'Noto Sans', sans-serif !important;
+.navigation {
+  height: 100% !important;
+  width: 5% !important;
+  position: fixed !important;
+  right: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  z-index: 5 !important;
+  background-color: black !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url('../assets/hamburger-like-menu-pixel-perfect-260nw-2185327773 copy.png') !important;
+}
+
+.btn-close {
+  background: transparent url('../assets/226-2260721_transparent-white-x-png-png-download.png') !important;
+  opacity: .5 !important;
+}
+
+.toggle {
+  color: white !important;
+}
+
+.offcanvas {
+  background-color: black !important;
+  color: white !important;
+  font-family: "Noto Sans", sans-serif !important;
+  letter-spacing: 5px;
 }

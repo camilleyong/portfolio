@@ -11,7 +11,7 @@ export default function Resume() {
     strength={800}
     className="about-image"
   >
-    <div className="container-resume">
+    <div className="container-resume" id="resume">
     <div className='resume'>
       <h1 className='resume-title'>RESUME</h1>
       <p>
