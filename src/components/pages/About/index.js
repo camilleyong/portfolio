@@ -12,7 +12,7 @@ export default function About() {
     strength={800}
     className="about-image"
   >
-    <div className='container'>
+    <div className='container' id='about'>
     <div className='about'>
       <div className='content-about'>
       <h1 className='name'>CAMILLE YONG</h1>

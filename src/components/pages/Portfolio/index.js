@@ -18,7 +18,8 @@ export default function Portfolio() {
     strength={800}
     className="about-image"
   >
-    <div className="portfolio-container">
+    <div className="container" id="portfolio">
+    <div className="portfolio">
     <h1 className='port-title'>PORTFOLIO</h1>
     <Carousel 
     variant="dark"
@@ -123,6 +124,7 @@ export default function Portfolio() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
     </div>
     </Parallax>
   );

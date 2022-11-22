@@ -62,7 +62,7 @@ export default function Contact() {
     strength={800}
     className="contact-image"
   >
-    <div className="container">
+    <div className="container" id="contact">
     <div className='contact'>
       <div className='contact-form'>
       <h1 className='contact-title text-center'>CONTACT ME</h1>
