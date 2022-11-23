@@ -53,11 +53,14 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
-  .about {
-      padding: 5rem 3rem 0rem 0rem;
+  .navigation {
+    width: 8% !important;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .navigation {
+    width: 10% !important;
+  }
 
 }

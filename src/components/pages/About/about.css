@@ -23,10 +23,19 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
     .about {
-        padding: 5rem 3rem 0rem 0rem;
+        padding: 10rem 4rem 0rem 0rem;
     }
   }
   
-  @media screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
+    .about {
+        /* padding: 100rem 3rem 0rem 0rem; */
+    }
   }
+
+@media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  

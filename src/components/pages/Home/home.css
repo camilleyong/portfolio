@@ -21,13 +21,15 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
-    .about {
-        padding: 5rem 3rem 0rem 0rem;
+    .intro {
+        padding: 20rem 4rem 0rem 0rem;
     }
   }
   
-  @media screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 25rem 3rem 0rem 0rem;
+    }
   }
 
 
