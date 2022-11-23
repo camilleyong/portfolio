@@ -68,7 +68,12 @@ export default function Contact() {
       <h1 className='contact-title text-center'>CONTACT ME</h1>
       <p className='text-center'>Email: camillemyong@gmail.com</p>
       <p className="text-center">Set Up A Meeting With Me Below!</p>
-      <p className="text-center"><a href="https://calendly.com/camilleyong/30min" className="calendly"><i class="fa-sharp fa-solid fa-arrow-right"></i> Calendly <i class="fa-sharp fa-solid fa-arrow-left"></i></a></p>
+      <p className="text-center">
+        <a href="https://calendly.com/camilleyong/30min"
+        className="calendly"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="fa-sharp fa-solid fa-arrow-right"></i> Calendly <i class="fa-sharp fa-solid fa-arrow-left"></i></a></p>
       
       <Form className='form'>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
