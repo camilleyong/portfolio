@@ -18,7 +18,7 @@ export default function Resume() {
         Take a look at my resume <a className="resume-link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1qD82NIS2sfggC5mFIFgAtKoy6p6tgtuC/view?usp=sharing">here!</a>
+        href="https://drive.google.com/file/d/1iDBOoXT9dj3DsLZ68rn3DyW2KCOpnfMf/view?usp=sharing">here!</a>
         <br></br>
         I am looking forward to working with you in the future.
       </p>
