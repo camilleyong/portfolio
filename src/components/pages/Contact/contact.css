@@ -14,3 +14,12 @@
     letter-spacing: 5px;
     border-radius: 30px;
   }
+
+.calendly {
+    color: black;
+    text-decoration: none;
+}
+
+.calendly:hover {
+    color: white;
+}

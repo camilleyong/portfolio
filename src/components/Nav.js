@@ -26,27 +26,27 @@ export default function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#home">
+                  <Nav.Link href="#home" className='link'>
                     <i class="fa-sharp fa-solid fa-user"></i>
                     Home
                   </Nav.Link>
-                  <Nav.Link href="#about">
+                  <Nav.Link href="#about" className='link'>
                     <i class="fa-sharp fa-solid fa-user"></i>
                     About
                   </Nav.Link>
-                  <Nav.Link href="#portfolio">
+                  <Nav.Link href="#portfolio" className='link'>
                     <i class="fa-sharp fa-solid fa-clipboard"></i>
                     Portfolio
                   </Nav.Link>
-                  <Nav.Link href="#skills">
+                  <Nav.Link href="#skills" className='link'>
                     <i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i>
                     Skills
                   </Nav.Link>
-                  <Nav.Link href="#resume">
+                  <Nav.Link href="#resume" className='link'>
                     <i class="fa-sharp fa-solid fa-file"></i>
                     Resume
                   </Nav.Link>
-                  <Nav.Link href="#contact">
+                  <Nav.Link href="#contact" className='link'>
                     <i class="fa-sharp fa-solid fa-envelope"></i>
                     Contact
                   </Nav.Link>

@@ -29,3 +29,24 @@
   font-family: "Noto Sans", sans-serif !important;
   letter-spacing: 5px;
 }
+
+.link:hover:before {
+  transform: scaleX(1) !important;
+  transform-origin: left !important;
+}
+
+.link:before {
+  background-color: gray !important;
+  transition: transform 0.5s ease-in-out !important;
+  width: 100% !important;
+  content: "" !important;
+  inset: 0 !important;
+  position: absolute !important;
+  transform: scaleX(0) !important;
+  transform-origin: right !important;
+  z-index: -1 !important;
+}
+
+.link {
+    position: relative;
+}
