@@ -24,3 +24,12 @@
     color: white;
     border-radius: 30px;
 }
+
+.github {
+    text-decoration: none;
+    color: black;
+}
+
+.github:hover {
+    color: white;
+}
