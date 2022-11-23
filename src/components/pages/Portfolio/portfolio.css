@@ -51,5 +51,24 @@
   }
   
   @media screen and (max-width: 768px) {
+    .portfolio {
+        padding-top: 13rem;
+    }
+
+    .carousel{
+        width: 40rem;
+        right: 5rem;
+    }
+    .port-title {
+        width: 30rem;
+        right: 5rem;
+    }
+    .info {
+        font-size: 10px;
+        height: 10%
+    }
+    .github {
+        font-size: 10px;
+    }
 
   }
