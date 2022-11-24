@@ -6,6 +6,7 @@ import OrbitalOdyssey from '../../assets/orbital-odyssey.png';
 import Weather from '../../assets/weatherapp.png';
 import NoteTaker from '../../assets/notetaker.png';
 import ResumeCreator from '../../assets/resumecreator.png';
+import WorkDay from '../../assets/workday.png';
 import Hallway from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
 
 
@@ -120,6 +121,31 @@ export default function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/cindyung56/resume-creator">GitHub Link</a>
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <a
+        href="https://camilleyong.github.io/workday-planner/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          className="d-block w-100"
+          src={WorkDay}
+          alt="screenshot of workday planner"
+        />
+        </a>
+
+        <Carousel.Caption className="portfolio-content">
+          <h5  className='portfolio-title'>Workday Planner</h5>
+          <p className="info">Click image to be directed to deployed website.</p>
+          <p className='info'>Tools Used: HTML, CSS, Javascript</p>
+          <p className='para'>
+          <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/camilleyong/workday-planner">GitHub Link</a>
           </p>
         </Carousel.Caption>
       </Carousel.Item>
