@@ -41,7 +41,15 @@
     p .about-me{
       height: 370px;
     }
-
-    
   }
-  
+@media screen and (device-width: 428px) {
+    .about {
+        padding: 1rem 2rem 0rem 0rem;
+    }
+    .content-about {
+      height: 605px;
+    }
+    .about-me{
+      font-size: 11px;
+    }
+  }

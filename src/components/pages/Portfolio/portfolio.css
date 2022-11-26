@@ -65,7 +65,7 @@
     }
     .info {
         font-size: 10px;
-        height: 10%
+        height: 10%;
     }
     .github {
         font-size: 10px;
@@ -81,5 +81,26 @@
     }
     .port-title {
         width: 21rem;
+    }
+  }
+  @media screen and (device-width: 428px) {
+    .portfolio {
+        padding: 10rem 0rem 0rem 0rem;
+    }
+    .carousel{
+        width: 24rem;
+    }
+    .port-title {
+        width: 16rem;
+    }
+    .info {
+        font-size: 8px;
+        height: 0.2%;
+    }
+    .github {
+        font-size: 8px;
+    }
+    .portfolio-title {
+        font-size: 10px;
     }
   }

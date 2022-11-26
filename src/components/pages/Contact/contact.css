@@ -33,3 +33,9 @@
   
 @media screen and (max-width: 768px) {
   }
+
+@media screen and (device-width: 428px) {
+    .contact {
+        padding: 2rem 4rem 0rem 0rem;
+    }
+  }

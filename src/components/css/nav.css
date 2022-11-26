@@ -64,3 +64,8 @@
   }
 
 }
+@media screen and (device-width: 428px) {
+  .navigation {
+    width: 16% !important;
+  }
+}
