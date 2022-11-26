@@ -72,3 +72,14 @@
     }
 
   }
+@media screen and (max-width: 576px) {
+    .portfolio {
+        padding: 21rem 3rem 0rem 0rem;
+    }
+    .carousel{
+        width: 30rem;
+    }
+    .port-title {
+        width: 21rem;
+    }
+  }

@@ -30,9 +30,18 @@
 @media screen and (max-width: 768px) {
   }
 
-/* @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
+@media screen and (max-width: 576px) {
+    .about {
+        padding: 2rem 3rem 0rem 0rem;
     }
-  } */
+    .about-me{
+      height: 700px;
+      white-space: initial;
+    }
+    p .about-me{
+      height: 370px;
+    }
+
+    
+  }
   
