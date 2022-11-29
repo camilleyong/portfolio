@@ -16,7 +16,7 @@ export default function Portfolio() {
   return (
     <Parallax
     bgImage={Hallway}
-    bgImageAlt=""
+    bgImageAlt="arched hallway"
     strength={800}
     className="about-image"
   >

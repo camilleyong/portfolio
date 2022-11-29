@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Parallax
     bgImage={Squares}
-    bgImageAlt=""
+    bgImageAlt="building with squares"
     strength={800}
     className="about-image"
   >
