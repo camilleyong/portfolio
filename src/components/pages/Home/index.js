@@ -9,7 +9,7 @@ export default function Home() {
     <Parallax
     
     bgImage={Leaves}
-    bgImageAlt=""
+    bgImageAlt="black and white images of leaves's shadow"
     strength={800}
     className="home-image"
   >

@@ -58,7 +58,7 @@ export default function Contact() {
     <Parallax
     
     bgImage={Roses}
-    bgImageAlt=""
+    bgImageAlt="black and white images of a rose"
     strength={800}
     className="contact-image"
   >

@@ -7,7 +7,7 @@ export default function Resume() {
   return (
     <Parallax
     bgImage={Ocean}
-    bgImageAlt=""
+    bgImageAlt="black and white image of the beach and ocean"
     strength={800}
     className="about-image"
   >
