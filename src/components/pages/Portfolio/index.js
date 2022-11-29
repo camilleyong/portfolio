@@ -8,6 +8,7 @@ import NoteTaker from '../../assets/notetaker.png';
 import ResumeCreator from '../../assets/resumecreator.png';
 import WorkDay from '../../assets/workday.png';
 import Hallway from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
+import ReduxStore from '../../assets/redux-store.png';
 
 
 
@@ -146,6 +147,31 @@ export default function Portfolio() {
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/camilleyong/workday-planner">GitHub Link</a>
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+      <a
+        href="https://enigmatic-temple-31565.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          className="d-block w-100"
+          src={ReduxStore}
+          alt="screenshot of redux store"
+        />
+        </a>
+
+        <Carousel.Caption className="portfolio-content">
+          <h5  className='portfolio-title'>Redux E-commerce Store</h5>
+          <p className="info">Click image to be directed to deployed website.</p>
+          <p className='info'>Tools Used: React, MongoDB, JavaScript, HTML, CSS, Redux</p>
+          <p className='para'>
+          <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/camilleyong/redux-store">GitHub Link</a>
           </p>
         </Carousel.Caption>
       </Carousel.Item>
