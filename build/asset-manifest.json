@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.81ce442d.css",
-    "main.js": "/portfolio/static/js/main.0792ccc5.js",
-    "static/media/redux-store.png": "/portfolio/static/media/redux-store.492ec388d84e9366007a.png",
+    "main.js": "/portfolio/static/js/main.a3a21e10.js",
+    "static/media/redux-store.png": "/portfolio/static/media/redux-store.0af74ae8dac01fd3abdc.png",
     "static/media/augustine-wong-T0BYurbDK_M-unsplash.jpg": "/portfolio/static/media/augustine-wong-T0BYurbDK_M-unsplash.44d997b8a4614ee173c9.jpg",
     "static/media/roma-kaiuk-1HN3li_kDVw-unsplash.jpg": "/portfolio/static/media/roma-kaiuk-1HN3li_kDVw-unsplash.d3267dbe5938b613bc46.jpg",
     "static/media/orbital-odyssey.png": "/portfolio/static/media/orbital-odyssey.380a4873d20663055719.png",
@@ -18,10 +18,10 @@
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
     "main.81ce442d.css.map": "/portfolio/static/css/main.81ce442d.css.map",
-    "main.0792ccc5.js.map": "/portfolio/static/js/main.0792ccc5.js.map"
+    "main.a3a21e10.js.map": "/portfolio/static/js/main.a3a21e10.js.map"
   },
   "entrypoints": [
     "static/css/main.81ce442d.css",
-    "static/js/main.0792ccc5.js"
+    "static/js/main.a3a21e10.js"
   ]
 }
