@@ -18,7 +18,16 @@
     text-decoration: none;
 }
 
+.cert-link {
+    color: black;
+    text-decoration: none;
+}
+
 .resume-link:hover {
+    color: white;
+}
+
+.cert-link:hover {
     color: white;
 }
 
