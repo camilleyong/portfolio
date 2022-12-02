@@ -34,12 +34,10 @@
     .about {
         padding: 2rem 3rem 0rem 0rem;
     }
-    .about-me{
-      height: 700px;
+    .content-about {
+      height: 450px;
       white-space: initial;
-    }
-    p .about-me{
-      height: 370px;
+      font-size: 12px;
     }
   }
 @media screen and (device-width: 428px) {

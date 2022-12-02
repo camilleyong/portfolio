@@ -1,109 +1,113 @@
-.portfolio{
-    justify-content: center;
-    position: relative;
-    padding: 2rem;
-    left: 80px;
+.portfolio {
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+  left: 80px;
 }
 
 .carousel {
-    width: 85%;
-    padding: 1rem;
+  width: 85%;
+  padding: 1rem;
 }
 
 .port-title {
-    background: rgba(255, 255, 255, 0.4);
-    color: black;
-    letter-spacing: 10px;
-    border-radius: 30px;
-    text-align: center;
-    width: 85%;
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
+  letter-spacing: 10px;
+  border-radius: 30px;
+  text-align: center;
+  width: 85%;
 }
 
 .portfolio-content {
-    background: rgba(170, 165, 165, 0.569);
-    color: white;
-    border-radius: 30px;
+  background: rgba(170, 165, 165, 0.569);
+  color: white;
+  border-radius: 30px;
 }
 
 .github {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .github:hover {
-    color: white;
+  color: white;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
-    .portfolio {
-        padding: 5rem 10rem 0rem 0rem;
-    }
-    .portfolio-content {
-        height: 46%;
-    }
-    .carousel{
-        width: 100%;
-    }
-    .port-title {
-        width: 100%;
-    }
+  .portfolio {
+    padding: 5rem 10rem 0rem 0rem;
   }
-  
-  @media screen and (max-width: 768px) {
-    .portfolio {
-        padding-top: 13rem;
-    }
-
-    .carousel{
-        width: 40rem;
-        right: 5rem;
-    }
-    .port-title {
-        width: 30rem;
-        right: 5rem;
-    }
-    .info {
-        font-size: 10px;
-        height: 10%;
-    }
-    .github {
-        font-size: 10px;
-    }
-
+  .portfolio-content {
+    height: 46%;
   }
+  .carousel {
+    width: 100%;
+  }
+  .port-title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding-top: 13rem;
+  }
+
+  .carousel {
+    width: 40rem;
+    right: 5rem;
+  }
+  .port-title {
+    width: 30rem;
+    right: 5rem;
+  }
+  .info {
+    font-size: 10px;
+    height: 10%;
+  }
+  .github {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 576px) {
-    .portfolio {
-        padding: 21rem 3rem 0rem 0rem;
-    }
-    .carousel{
-        width: 30rem;
-    }
-    .port-title {
-        width: 21rem;
-    }
+  .portfolio {
+    padding: 6rem 2rem 0rem 0rem;
   }
-  @media screen and (device-width: 428px) {
-    .portfolio {
-        padding: 7rem 0rem 0rem 0rem;
-    }
-    .carousel{
-        width: 24rem;
-    }
-    .port-title {
-        width: 16rem;
-    }
-    .info {
-        font-size: 8px;
-        height: 0.2%;
-    }
-    .github {
-        font-size: 8px;
-    }
-    .portfolio-title {
-        font-size: 10px;
-    }
-    .portfolio-content {
-        height: 50%;
-    }
+  .carousel {
+    width: 30rem;
   }
+  .port-title {
+    width: 21rem;
+  }
+  .portfolio-content {
+    height: 50%;
+  }
+}
+
+@media screen and (device-width: 428px) {
+  .portfolio {
+    padding: 7rem 0rem 0rem 0rem;
+  }
+  .carousel {
+    width: 24rem;
+  }
+  .port-title {
+    width: 16rem;
+  }
+  .info {
+    font-size: 8px;
+    height: 0.2%;
+  }
+  .github {
+    font-size: 8px;
+  }
+  .portfolio-title {
+    font-size: 10px;
+  }
+  .portfolio-content {
+    height: 50%;
+  }
+}
