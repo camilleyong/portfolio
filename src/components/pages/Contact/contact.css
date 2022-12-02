@@ -32,6 +32,9 @@
   }
   
 @media screen and (max-width: 768px) {
+    .contact {
+        padding: 3rem 5rem 0rem 1rem;
+    }
   }
 
 @media screen and (max-width: 576px) {
