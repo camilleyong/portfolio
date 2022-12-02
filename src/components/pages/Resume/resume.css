@@ -42,6 +42,6 @@
 /* MEDIA QUERIES */
 @media screen and (device-width: 428px) {
     .container-resume {
-        padding: 7rem 3rem 0rem 0rem;
+        padding: 3rem 3rem 0rem 1rem;
     }
   }
