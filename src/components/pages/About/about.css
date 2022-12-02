@@ -23,7 +23,12 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
   .about {
-    padding: 10rem 4rem 0rem 0rem;
+    padding: 3rem 4rem 0rem 0rem;
+  }
+  .content-about {
+    height: 880px;
+    white-space: initial;
+    font-size: 28px;
   }
 }
 
