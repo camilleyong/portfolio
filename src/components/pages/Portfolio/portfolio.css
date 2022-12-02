@@ -85,7 +85,7 @@
   }
   @media screen and (device-width: 428px) {
     .portfolio {
-        padding: 10rem 0rem 0rem 0rem;
+        padding: 7rem 0rem 0rem 0rem;
     }
     .carousel{
         width: 24rem;
@@ -102,5 +102,8 @@
     }
     .portfolio-title {
         font-size: 10px;
+    }
+    .portfolio-content {
+        height: 50%;
     }
   }

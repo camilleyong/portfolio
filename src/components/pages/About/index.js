@@ -16,9 +16,9 @@ export default function About() {
     <div className='about'>
       <div className='content-about'>
       <h1 className='name'>CAMILLE YONG</h1>
-      {/* <img className="camille" src={} alt="Avatar"></img> */}
+      {/* <img className="camille" src={} alt="picture of camille"></img> */}
       <p className='about-me'>
-        I recently earned my certificate in Full Stack Developement at UCLA Extention Bootcamp in 2022. I gained the skills in HTML, CSS, Javascript, React.js, and making fully functional web design. I earned my degree in Veterinary Medicine and was in the field for eigth years. I have experience in managing a business, training exmployees, and assiting with C-Suite personnels. I have an ENFJ-T personality. I enjoy problem solving and helping my peers solve their's as well. Communication is very important in maintaining a good relationship and being successful in your career. I enjoy creating content on the side for my social media. My hobbies consist of fashion, art, photography, life-style, beauty, and self-care. I am a very creative person and I love to create. I am a very hard worker and I am very passionate about what I do. I am very excited to start my new career in web development and I am looking forward to learning more and more.
+      Hello! My name is Camille Yong and passionately earned my certificate in Full Stack Development at UCLA Extension Bootcamp in 2022. I proudly gained skills in HTML, CSS, Javascript, React.js, and making fully functional web design. After eight years in Veterinary Medicine, I have experience in managing a business, training employees, and assisting with C-Suite personnels. I have an ENFJ-T personality which allows me to enjoy problem solving and helping my peers. Communication is key in maintaining a good relationship and being successful in your career. My hobbies consist of creating content for my personal social media fashion, traveling, photography, and self-care. I am very excited to start my new career in web development and looking forward to learning more.
       </p>
       </div>
     </div>

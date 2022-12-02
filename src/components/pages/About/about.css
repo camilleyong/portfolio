@@ -4,7 +4,7 @@
 }
 
 .about {
-    padding: 10rem 5rem 0rem 0rem;
+    padding: 15rem 5rem 0rem 0rem;
 }
 
 .content-about {
@@ -44,12 +44,11 @@
   }
 @media screen and (device-width: 428px) {
     .about {
-        padding: 1rem 2rem 0rem 0rem;
+        padding: 1rem 4rem 0rem 1rem;
     }
     .content-about {
-      height: 605px;
-    }
-    .about-me{
-      font-size: 11px;
+      height: 450px;
+      white-space: initial;
+      font-size: 8.5px;
     }
   }
