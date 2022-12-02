@@ -42,7 +42,7 @@ export default function Contact() {
         setStatus("email is invalid")
       }
     } else {
-      setStatus("all input fields need to be filled ")
+      setStatus("All input fields need to be filled!")
     }
   };
 
