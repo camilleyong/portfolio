@@ -1,52 +1,60 @@
 .about-image {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
 .about {
-    padding: 15rem 5rem 0rem 0rem;
+  padding: 15rem 5rem 0rem 0rem;
 }
 
 .content-about {
-    background: rgba(255, 255, 255, 0.4);
-    color: black;
-    padding: 1rem ;
-    letter-spacing: 5px;
-    border-radius: 30px;
-    text-align: center;
-  }
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
+  padding: 1rem;
+  letter-spacing: 5px;
+  border-radius: 30px;
+  text-align: center;
+}
 
 .name {
-    letter-spacing: 10px;
+  letter-spacing: 10px;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
-    .about {
-        padding: 10rem 4rem 0rem 0rem;
-    }
+  .about {
+    padding: 10rem 4rem 0rem 0rem;
   }
-  
+}
+
 @media screen and (max-width: 768px) {
+  .about {
+    padding: 4rem 4rem 0rem 0rem;
   }
+  .content-about {
+    height: 540px;
+    white-space: initial;
+    font-size: 16px;
+  }
+}
 
 @media screen and (max-width: 576px) {
-    .about {
-        padding: 2rem 3rem 0rem 0rem;
-    }
-    .content-about {
-      height: 450px;
-      white-space: initial;
-      font-size: 12px;
-    }
+  .about {
+    padding: 2rem 3rem 0rem 0rem;
   }
+  .content-about {
+    height: 450px;
+    white-space: initial;
+    font-size: 12px;
+  }
+}
 @media screen and (device-width: 428px) {
-    .about {
-        padding: 1rem 4rem 0rem 1rem;
-    }
-    .content-about {
-      height: 450px;
-      white-space: initial;
-      font-size: 8.5px;
-    }
+  .about {
+    padding: 1rem 4rem 0rem 1rem;
   }
+  .content-about {
+    height: 450px;
+    white-space: initial;
+    font-size: 8.5px;
+  }
+}
