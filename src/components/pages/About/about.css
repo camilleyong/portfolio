@@ -21,45 +21,4 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
-  .about {
-    padding: 3rem 4rem 0rem 0rem;
-  }
-  .content-about {
-    height: 880px;
-    white-space: initial;
-    font-size: 28px;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .about {
-    padding: 4rem 4rem 0rem 0rem;
-  }
-  .content-about {
-    height: 540px;
-    white-space: initial;
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .about {
-    padding: 2rem 3rem 0rem 0rem;
-  }
-  .content-about {
-    height: 450px;
-    white-space: initial;
-    font-size: 12px;
-  }
-}
-@media screen and (device-width: 428px) {
-  .about {
-    padding: 1rem 4rem 0rem 1rem;
-  }
-  .content-about {
-    height: 450px;
-    white-space: initial;
-    font-size: 8.5px;
-  }
-}

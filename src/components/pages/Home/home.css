@@ -20,29 +20,6 @@
   }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
-    .intro {
-        padding: 25rem 4rem 0rem 0rem;
-    }
-  }
-  
-@media screen and (max-width: 768px) {
-    .intro {
-        padding: 15rem 4rem 0rem 0rem;
-    }
-  }
-
-  @media screen and (max-width: 576px) {
-    .intro {
-        padding: 9rem 3rem 0rem 0rem;
-    }
-  }
-
-@media screen and (device-width: 428px) {
-    .intro {
-        padding: 7rem 3.5rem 0rem 1rem;
-    }
-  }
 
 
 

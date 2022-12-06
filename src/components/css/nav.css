@@ -52,20 +52,3 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
-  .navigation {
-    width: 8% !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navigation {
-    width: 11% !important;
-  }
-
-}
-@media screen and (device-width: 428px) {
-  .navigation {
-    width: 13% !important;
-  }
-}

@@ -40,19 +40,4 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-    .container-resume {
-        padding: 10rem 2rem 0rem 1rem;
-    }
-}
 
-@media screen and (max-width: 576px) {
-    .container-resume {
-        padding: 4rem 2rem 0rem 1rem;
-    }
-}
-@media screen and (device-width: 428px) {
-    .container-resume {
-        padding: 3rem 3rem 0rem 1rem;
-    }
-  }

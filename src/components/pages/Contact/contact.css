@@ -25,34 +25,4 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
-    .contact {
-        padding: 5rem 3rem 0rem 0rem;
-    }
-  }
-  
-@media screen and (max-width: 768px) {
-    .contact {
-        padding: 3rem 5rem 0rem 1rem;
-    }
-  }
 
-@media screen and (max-width: 576px) {
-    .contact {
-        padding: 2rem 4rem 0rem 1rem;
-    }
-    .contact-form {
-        height: 455px;
-        font-size: 10px;
-    }
-}
-
-@media screen and (device-width: 428px) {
-    .contact {
-        padding: 2rem 4rem 0rem 1rem;
-    }
-    .contact-form {
-        height: 450px;
-        font-size: 8.5px;
-    }
-  }
