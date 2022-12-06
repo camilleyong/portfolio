@@ -22,7 +22,7 @@
 
 /* MEDIA QUERIES */
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
     padding: 10rem 3rem 0rem 0rem;
   }
@@ -38,6 +38,11 @@
 }
 
 /* SMART PHONE */
-@media screen and (min-width: 767px){
-  
+@media screen and (max-width: 767px) {
+  .about {
+    padding: 3rem 3rem 0rem 0rem;
+  }
+  .content-about {
+    font-size: 19px;
+  }
 }
