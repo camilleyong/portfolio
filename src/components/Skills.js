@@ -18,6 +18,7 @@ export default function Skills() {
     // <div className="container">
     <div className="horizontal-container row justify-content-center" id="skills">
       <h1 className='skills-title text-center'>SKILLS</h1>
+      <div className="skills">
       <img className="col-2 col-md-1 icon" src={Html} alt="html icon"></img>
       <img className="col-2 col-md-1 icon" src={Css} alt="css icon"></img>
       <img className="col-2 col-md-1 icon" src={JavaScript} alt="javascript icon"></img>
@@ -33,6 +34,6 @@ export default function Skills() {
       <img className="col-2 col-md-1 icon" src={Handlebars} alt="handlebars icon"></img>
       <img className="col-2 col-md-1 icon" src={Redux} alt="redux icon"></img>
       </div>
-    // </div>
+     </div>
   );
 }

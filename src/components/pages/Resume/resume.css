@@ -40,4 +40,22 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container-resume {
+        padding: 13rem 1rem 0rem 0rem;
+    }
+    .resume {
+        font-size: 25px;
+    }
+}
 
+@media screen and (min-width: 1024px) {
+    .container-resume {
+        padding: 10rem 1rem 0rem 0rem;
+    }
+  
+}
+
+@media screen and (min-width: 767px){
+  
+}

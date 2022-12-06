@@ -52,3 +52,19 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navigation {
+    width: 10% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navigation {
+    width: 7% !important;
+  }
+  
+}
+
+@media screen and (min-width: 767px){
+  
+}
