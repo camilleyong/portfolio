@@ -21,14 +21,14 @@
 
 /* MEDIA QUERIES */
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .intro {
     padding: 25rem 4rem 0rem 2rem;
   }
 }
 
 /* SMART PHONE */
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .intro {
     padding: 25rem 2rem 0rem 0rem;
   }
