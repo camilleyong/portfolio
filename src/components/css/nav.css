@@ -58,12 +58,6 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .navigation {
-    width: 7% !important;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .navigation {
     width: 9% !important;

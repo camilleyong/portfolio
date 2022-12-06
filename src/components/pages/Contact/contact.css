@@ -27,21 +27,12 @@
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .contact {
-        padding: 13rem 3rem 0rem 0rem;
+        padding: 13rem 3rem 0rem 1rem;
     }
     .contact-form {
         font-size: 20px;
     }
   
-}
-
-@media screen and (min-width: 1024px) {
-    .contact {
-        padding: 6rem 3rem 0rem 0rem;
-    }
-    .contact-form {
-        font-size: 21px;
-    }
 }
 
 @media screen and (max-width: 767px) {

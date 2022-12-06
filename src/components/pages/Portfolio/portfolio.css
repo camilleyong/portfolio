@@ -51,22 +51,6 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .portfolio {
-    padding: 7rem 0rem 0rem 0rem;
-  }
-  .carousel {
-    width: 100%;
-    right: 6.5rem;
-  }
-  .port-title{
-    width: 80%;
-  }
-  .portfolio-content{
-    height: 40%;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .portfolio {
     padding: 20rem 0rem 0rem 0rem;

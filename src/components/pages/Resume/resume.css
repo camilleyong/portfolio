@@ -49,12 +49,6 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .container-resume {
-        padding: 10rem 1rem 0rem 0rem;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .container-resume {
         padding: 16rem 1rem 0rem 0rem;
