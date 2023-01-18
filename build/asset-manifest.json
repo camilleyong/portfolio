@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.81ce442d.css",
-    "main.js": "/portfolio/static/js/main.389ade59.js",
+    "main.css": "/portfolio/static/css/main.5fad7871.css",
+    "main.js": "/portfolio/static/js/main.7ae55dbc.js",
+    "static/media/redux-store.png": "/portfolio/static/media/redux-store.0af74ae8dac01fd3abdc.png",
     "static/media/augustine-wong-T0BYurbDK_M-unsplash.jpg": "/portfolio/static/media/augustine-wong-T0BYurbDK_M-unsplash.44d997b8a4614ee173c9.jpg",
     "static/media/roma-kaiuk-1HN3li_kDVw-unsplash.jpg": "/portfolio/static/media/roma-kaiuk-1HN3li_kDVw-unsplash.d3267dbe5938b613bc46.jpg",
     "static/media/orbital-odyssey.png": "/portfolio/static/media/orbital-odyssey.380a4873d20663055719.png",
     "static/media/amanda-frank-wEbeV2SUp8E-unsplash.jpg": "/portfolio/static/media/amanda-frank-wEbeV2SUp8E-unsplash.102714451b9d8362fb57.jpg",
-    "static/media/resumecreator.png": "/portfolio/static/media/resumecreator.800e630ead0ea8d13ffb.png",
+    "static/media/resumecreator.png": "/portfolio/static/media/resumecreator.b108bee9ee4816e1dbbd.png",
     "static/media/workday.png": "/portfolio/static/media/workday.d301f1e3171c0f52d30d.png",
     "static/media/robin-schreiner-7y4858E8PfA-unsplash.jpg": "/portfolio/static/media/robin-schreiner-7y4858E8PfA-unsplash.dd5868ab5214b690fa99.jpg",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.eeba2f0a2a164c498388.png",
@@ -16,11 +17,11 @@
     "static/media/my-sql.png": "/portfolio/static/media/my-sql.503cfdd887631c88e6bc.png",
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
-    "main.81ce442d.css.map": "/portfolio/static/css/main.81ce442d.css.map",
-    "main.389ade59.js.map": "/portfolio/static/js/main.389ade59.js.map"
+    "main.5fad7871.css.map": "/portfolio/static/css/main.5fad7871.css.map",
+    "main.7ae55dbc.js.map": "/portfolio/static/js/main.7ae55dbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ce442d.css",
-    "static/js/main.389ade59.js"
+    "static/css/main.5fad7871.css",
+    "static/js/main.7ae55dbc.js"
   ]
 }
