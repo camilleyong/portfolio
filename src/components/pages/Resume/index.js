@@ -18,7 +18,7 @@ export default function Resume() {
         Take a look at my resume <a className="resume-link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1iDBOoXT9dj3DsLZ68rn3DyW2KCOpnfMf/view?usp=sharing">here!</a>
+        href="https://drive.google.com/file/d/1bZSUrhhbSziPqpYxhxJ3rUp2uiMZbuCZ/view?usp=sharing">here!</a>
         <br></br>
         Click <a className="cert-link"
         target="_blank"
