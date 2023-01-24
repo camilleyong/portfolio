@@ -25,7 +25,6 @@ export default function Resume() {
         rel="noopener noreferrer"
         href="https://www.parchment.com/u/award/e011607a825961a34a0f32e69ec64e5b">here</a> to view my certificate!
         <br></br>
-        I am looking forward to working with you in the future.
       </p>
       <article className="row row-cols-1 row-cols-md-3 justify-content-center">
         <div className="col mb-4">

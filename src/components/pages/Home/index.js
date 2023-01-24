@@ -18,9 +18,9 @@ export default function Home() {
             <div className='content'>
             <div className='title-name'>
             Welcome World!
-            <p className='introduction'>My name is Camille Yong
+            <p className='introduction'>Camille Yong
             <br></br>
-            I am a FrontEnd Web Developer
+            FrontEnd Web Developer
             </p>
             </div>
             </div>
