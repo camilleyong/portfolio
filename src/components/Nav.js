@@ -11,7 +11,7 @@ export default function OffcanvasExample() {
       {[false].map((expand) => (
         <Navbar className='navigation' key={expand} bg="" expand={expand}>
           <Container fluid>
-            <Navbar.Brand href="#"></Navbar.Brand>
+            <Navbar.Brand href=""></Navbar.Brand>
             <Navbar.Toggle className='toggle' aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               className='offcanvas'

@@ -16,13 +16,13 @@ export default function Resume() {
       <h1 className='resume-title'>RESUME</h1>
       <div className="justify-content-between">
       <a className="btn btn-primary"
-        id="link"
+        id='resumeBtn'
         target="_blank"
         rel="noopener noreferrer"
         href="https://drive.google.com/file/d/1bZSUrhhbSziPqpYxhxJ3rUp2uiMZbuCZ/view?usp=sharing" role="button">Download Resume</a>
 
       <a className="btn btn-primary"
-        id="link"
+        id='resumeBtn'
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.parchment.com/u/award/e011607a825961a34a0f32e69ec64e5b" role="button">View Certificate</a>

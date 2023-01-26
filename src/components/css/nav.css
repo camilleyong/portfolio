@@ -2,6 +2,8 @@
   align-items: center !important;
   z-index: 5 !important;
   background-color: black !important;
+  position: fixed !important;
+  width: 100% !important;
 }
 
 .navbar-brand {

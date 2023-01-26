@@ -13,7 +13,8 @@
     margin-top: 15px;
 }
 
-#link {
+#resumeBtn {
+    background-color: white;
     color: black;
     text-decoration: none;
     margin: 0px 5px 10px 5px;
@@ -22,7 +23,7 @@
 }
 
 
-#link:hover {
+#resumeBtn:hover {
     color: white;
     background-color: black;
     border-color: black;
