@@ -13,14 +13,13 @@
 }
 
 .port-container {
-  position : relative;
+  /* position : relative; */
   flex-wrap: wrap;
   width : 1100px;
   display : flex;
   align-items : center;
   justify-content : center;
   padding : 30px;
-  left: 14%;
 }
 
 .port-container .card {
@@ -76,4 +75,13 @@
    opacity : 1;
    transition-delay: 0.2s;
   
+}
+
+.port-icon {
+  margin-left: 10px;
+  color: black;
+}
+
+.port-icon:hover {
+  opacity: 0.6;
 }

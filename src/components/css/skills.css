@@ -12,10 +12,14 @@
     letter-spacing: 10px;
     border-radius: 30px;
     text-align: center;
-    padding: 0.5rem;
 }
 
 .horizontal-container {
     background-color: black;
     padding: 1rem 15rem 1rem 15rem;
+    width:auto;
+}
+
+.row {
+    margin: 0 !important;
 }

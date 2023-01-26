@@ -17,10 +17,10 @@ export default function Home() {
             <div className='intro'>
             <div className='content'>
             <div className='title-name'>
-            Welcome World!
+            Welcome
             <p className='introduction'>Camille Yong
             <br></br>
-            FrontEnd Web Developer
+            Software Engineer | FrontEnd Web Developer
             </p>
             </div>
             </div>

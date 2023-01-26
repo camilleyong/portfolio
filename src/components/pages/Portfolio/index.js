@@ -21,9 +21,9 @@ export default function Portfolio() {
   //   className="about-image"
   // >
   <div>
-    <h1 className='port-title'>PORTFOLIO</h1>
+    <h1 className='port-title' id="portfolio">PORTFOLIO</h1>
     <body className='body'>
-  <div className='port-container justify-content-evenly'>
+  <div className='port-container col align-self-center'>
 
     {/* CARD 1 */}
 
@@ -39,11 +39,11 @@ export default function Portfolio() {
         <a
         href="https://stormy-sands-64982.herokuapp.com/"
         target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/camilleyong/weather-dashboard"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/camilleyong/weather-dashboard"><i className="fa-brands fa-github fa-2xl port-icon"></i></a>
       </div>
       </div>
 
@@ -61,11 +61,11 @@ export default function Portfolio() {
         <a
         href="https://camilleyong.github.io/weather-dashboard/"
         target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl port-icon"></i></a>
       </div>
       </div>
 
@@ -84,11 +84,13 @@ export default function Portfolio() {
         <a
         href="https://fathomless-chamber-93211.herokuapp.com/notes"
         target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        rel="noopener noreferrer">
+          <i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/camilleyong/note-taker"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/camilleyong/note-taker">
+            <i className="fa-brands fa-github fa-2xl port-icon"></i></a>
       </div>
       </div>
 
@@ -107,11 +109,11 @@ export default function Portfolio() {
         <a
         href="https://fierce-ravine-29010.herokuapp.com/"
         target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/cindyung56/resume-creator"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/cindyung56/resume-creator"><i className="fa-brands fa-github fa-2xl port-icon"></i></a>
       </div>
       </div>
 
@@ -130,11 +132,11 @@ export default function Portfolio() {
         <a
         href="https://camilleyong.github.io/workday-planner/"
         target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/camilleyong/workday-planner"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/camilleyong/workday-planner"><i className="fa-brands fa-github fa-2xl port-icon"></i></a>
       </div>
       </div>
 
@@ -153,11 +155,11 @@ export default function Portfolio() {
         <a
         href="https://enigmatic-temple-31565.herokuapp.com/"
         target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/camilleyong/redux-store"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/camilleyong/redux-store"><i className="fa-brands fa-github fa-2xl port-icon"></i></a>
       </div>
       </div>
 
