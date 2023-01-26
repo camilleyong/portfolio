@@ -4,7 +4,7 @@
 }
 
 .about {
-  padding: 15rem 5rem 0rem 0rem;
+  padding: 15rem 5rem 0rem 5rem;
 }
 
 .content-about {
@@ -22,21 +22,21 @@
 
 /* MEDIA QUERIES */
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
     padding: 10rem 3rem 0rem 1rem;
   }
   .content-about {
     font-size: 20px;
   }
-}
+} */
 
 /* SMART PHONE */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .about {
     padding: 3rem 3rem 0rem 0rem;
   }
   .content-about {
     font-size: 19px;
   }
-}
+} */

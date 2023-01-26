@@ -4,7 +4,7 @@
 }
 
 .intro {
-    padding: 20rem 5rem 0rem 0rem;
+    padding: 20rem 5rem 0rem 5rem;
 }
 
 .content {
@@ -20,21 +20,10 @@
   }
 
 /* MEDIA QUERIES */
-/* TABLET */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .intro {
-    padding: 25rem 4rem 0rem 2rem;
+/* @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .entirePage {
+    width: 100%;
   }
-}
-
-/* SMART PHONE */
-@media only screen and (max-width: 767px) {
-  .intro {
-    padding: 25rem 2rem 0rem 0rem;
-  }
-  .content {
-    height: 150%;
-  }
-}
+} */
 
 

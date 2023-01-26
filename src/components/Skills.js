@@ -15,10 +15,9 @@ import Redux from "../icons/redux.png";
 
 export default function Skills() {
   return (
-    // <div className="container">
-    <div className="horizontal-container row justify-content-center" id="skills">
+    <div className="horizontal-container row" id="skills">
       <h1 className='skills-title text-center'>SKILLS</h1>
-      <div className="skills">
+      <div className="skills-icons">
       <img className="col-2 col-md-1 icon" src={Html} alt="html icon"></img>
       <img className="col-2 col-md-1 icon" src={Css} alt="css icon"></img>
       <img className="col-2 col-md-1 icon" src={JavaScript} alt="javascript icon"></img>

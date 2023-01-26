@@ -1,29 +1,157 @@
 import React from 'react';
 import './portfolio.css';
-import Carousel from 'react-bootstrap/Carousel';
-import { Parallax } from "react-parallax";
+// import Carousel from 'react-bootstrap/Carousel';
+// import { Parallax } from "react-parallax";
 import OrbitalOdyssey from '../../assets/orbital-odyssey.png';
 import Weather from '../../assets/weatherapp.png';
 import NoteTaker from '../../assets/notetaker.png';
 import ResumeCreator from '../../assets/resumecreator.png';
 import WorkDay from '../../assets/workday.png';
-import Hallway from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
+// import Hallway from '../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg'
 import ReduxStore from '../../assets/redux-store.png';
 
 
 
 export default function Portfolio() {
   return (
-    <Parallax
-    bgImage={Hallway}
-    bgImageAlt="arched hallway"
-    strength={800}
-    className="about-image"
-  >
-    <div className="container" id="portfolio">
-    <div className="portfolio">
+  //   <Parallax
+  //   bgImage={Hallway}
+  //   bgImageAlt="arched hallway"
+  //   strength={800}
+  //   className="about-image"
+  // >
+  <div>
     <h1 className='port-title'>PORTFOLIO</h1>
-    <Carousel 
+    <body className='body'>
+  <div className='port-container justify-content-evenly'>
+
+    <div className='card'>
+      <div className='image'>
+        <img 
+        src={OrbitalOdyssey} />
+      </div>
+      <div className='port-content'>
+        <h3>Orbital Odyssey</h3>
+        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <a
+        href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={Weather} />
+      </div>
+      <div className='port-content'>
+        <h3>Orbital Odyssey</h3>
+        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <a
+        href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={NoteTaker} />
+      </div>
+      <div className='port-content'>
+        <h3>Orbital Odyssey</h3>
+        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <a
+        href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+    <div className='card'>
+      <div className='image'>
+        <img 
+        src={ResumeCreator} />
+      </div>
+      <div className='port-content'>
+        <h3>Orbital Odyssey</h3>
+        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <a
+        href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={WorkDay} />
+      </div>
+      <div className='port-content'>
+        <h3>Orbital Odyssey</h3>
+        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <a
+        href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={ReduxStore} />
+      </div>
+      <div className='port-content'>
+        <h3>Orbital Odyssey</h3>
+        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <a
+        href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+  </div>
+  </body>
+  </div>
+
+
+
+
+
+
+
+
+
+    /* <Carousel 
     variant="dark"
     className="carousel"
     >
@@ -175,9 +303,7 @@ export default function Portfolio() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
-    </div>
-    </div>
-    </Parallax>
+    </Carousel> */
+    // </Parallax>
   );
-}
+};

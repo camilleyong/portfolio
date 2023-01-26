@@ -14,19 +14,21 @@ export default function Resume() {
     <div className="container-resume" id="resume">
     <div className='resume'>
       <h1 className='resume-title'>RESUME</h1>
-      <p>
-        Take a look at my resume <a className="resume-link"
+      <div className="justify-content-between">
+      <a className="btn btn-primary"
+        id="link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1bZSUrhhbSziPqpYxhxJ3rUp2uiMZbuCZ/view?usp=sharing">here!</a>
-        <br></br>
-        Click <a className="cert-link"
+        href="https://drive.google.com/file/d/1bZSUrhhbSziPqpYxhxJ3rUp2uiMZbuCZ/view?usp=sharing" role="button">Download Resume</a>
+
+      <a className="btn btn-primary"
+        id="link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.parchment.com/u/award/e011607a825961a34a0f32e69ec64e5b">here</a> to view my certificate!
-        <br></br>
-      </p>
-      <article className="row row-cols-1 row-cols-md-3 justify-content-center">
+        href="https://www.parchment.com/u/award/e011607a825961a34a0f32e69ec64e5b" role="button">View Certificate</a>
+        </div>
+
+      <article className="row skills-article row-cols-1 row-cols-md-3 justify-content-center">
         <div className="col mb-4">
             <div className="card-body">
               <h5 className="card-title">Frontend Skills</h5>

@@ -12,7 +12,7 @@ import './css/portfoliocontainer.css';
 
 export default function PortfolioContainer() {
     return (
-        <div>
+        <div className='entirePage'>
             {<Nav />}
             {<Home />}
             {<About />}

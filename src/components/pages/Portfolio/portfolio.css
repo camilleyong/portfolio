@@ -1,68 +1,79 @@
-.portfolio {
-  justify-content: center;
-  position: relative;
-  padding: 2rem;
-  left: 80px;
-}
-
-.carousel {
-  width: 85%;
-  padding: 1rem;
-}
-
 .port-title {
-  background: rgba(255, 255, 255, 0.4);
   color: black;
   letter-spacing: 10px;
   border-radius: 30px;
   text-align: center;
-  width: 85%;
+  margin: 20px;
 }
 
-.portfolio-content {
-  background: rgba(170, 165, 165, 0.569);
-  color: white;
-  border-radius: 30px;
+.body {
+  background-image: url(../../assets/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+  display : flex;
+  align-items : center;
 }
 
-.github {
-  text-decoration: none;
-  color: black;
+.port-container {
+  position : relative;
+  flex-wrap: wrap;
+  width : 1100px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  padding : 30px;
+  left: 15%;
 }
 
-.github:hover {
-  color: white;
+.port-container .card {
+  position: relative;
+  max-width : 300px;
+  height : 215px;  
+  background-color : #fff;
+  margin : 60px 10px;
+  padding : 20px 15px;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.port-container .card:hover {
+  height : 320px;    
 }
 
-/* MEDIA QUERIES */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .portfolio {
-    padding: 16rem 0rem 0rem 0rem;
-  }
-  .carousel {
-    width: 100%;
-    right: 6.5rem;
-  }
-  .port-title{
-    width: 70%;
-  }
-  .portfolio-content{
-    height: 50%;
-  }
+
+.port-container .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  
+  top : -40%;
+  left: 8px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index : 1;
 }
 
-@media screen and (max-width: 767px) {
-  .portfolio {
-    padding: 20rem 0rem 0rem 0rem;
-  }
-  .carousel {
-    width: 150%;
-    right: 15rem;
-  }
-  .port-title{
-    width: 65%;
-  }
-  .portfolio-content{
-    height: 45%;
-  }
+.port-container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.port-container .card .port-content {
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+
+.port-container .card:hover .port-content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
 }

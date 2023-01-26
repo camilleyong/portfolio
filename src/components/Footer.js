@@ -4,7 +4,7 @@ import './css/footer.css';
 
 export default function Footer() {
     return (
-        <div className='footer d-flex justify-content-center pt-2'>
+        <div className='footer d-flex pt-2 justify-content-center'>
         <a
         href="https://github.com/camilleyong"
         target="_blank"

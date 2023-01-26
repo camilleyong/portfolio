@@ -1,13 +1,11 @@
 .navigation {
-  height: 100% !important;
-  width: 5% !important;
-  position: fixed !important;
-  right: 0 !important;
-  display: flex !important;
-  flex-direction: column !important;
   align-items: center !important;
   z-index: 5 !important;
   background-color: black !important;
+}
+
+.navbar-brand {
+  padding: 0 !important;
 }
 
 .navbar-toggler-icon {
@@ -49,17 +47,4 @@
 
 .link {
     position: relative;
-}
-
-/* MEDIA QUERIES */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .navigation {
-    width: 10% !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .navigation {
-    width: 9% !important;
-  }
-}
+} 

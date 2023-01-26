@@ -4,7 +4,7 @@
 }
 
 .contact {
-    padding: 7rem 20rem 80rem 20rem;
+    padding: 7rem 20rem 80rem 22rem;
 }
 
 .contact-form {
@@ -22,25 +22,4 @@
 
 .calendly:hover {
     color: white;
-}
-
-/* MEDIA QUERIES */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .contact {
-        padding: 13rem 3rem 0rem 1rem;
-    }
-    .contact-form {
-        font-size: 20px;
-    }
-  
-}
-
-@media screen and (max-width: 767px) {
-    .contact {
-        padding: 12rem 3rem 0rem 0rem;
-    }
-    .contact-form {
-        font-size: 20px;
-    }
-  
 }
