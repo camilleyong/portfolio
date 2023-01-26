@@ -25,73 +25,41 @@ export default function Portfolio() {
     <body className='body'>
   <div className='port-container justify-content-evenly'>
 
-    <div className='card'>
-      <div className='image'>
-        <img 
-        src={OrbitalOdyssey} />
-      </div>
-      <div className='port-content'>
-        <h3>Orbital Odyssey</h3>
-        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
-        <a
-        href="https://stormy-sands-64982.herokuapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
-        <a className="github"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
-      </div>
-      </div>
-
-      <div className='card'>
-      <div className='image'>
-        <img 
-        src={Weather} />
-      </div>
-      <div className='port-content'>
-        <h3>Orbital Odyssey</h3>
-        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
-        <a
-        href="https://stormy-sands-64982.herokuapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
-        <a className="github"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
-      </div>
-      </div>
-
-      <div className='card'>
-      <div className='image'>
-        <img 
-        src={NoteTaker} />
-      </div>
-      <div className='port-content'>
-        <h3>Orbital Odyssey</h3>
-        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
-        <a
-        href="https://stormy-sands-64982.herokuapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
-        <a className="github"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
-      </div>
-      </div>
+    {/* CARD 1 */}
 
     <div className='card'>
       <div className='image'>
         <img 
-        src={ResumeCreator} />
+        src={OrbitalOdyssey}
+        alt="screenshot of orbital odyssey app"/>
       </div>
       <div className='port-content'>
         <h3>Orbital Odyssey</h3>
-        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <p>A web application that allows users to explore the solar system and learn more about our neighboring planets.</p>
         <a
         href="https://stormy-sands-64982.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/camilleyong/weather-dashboard"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      {/* CARD 2 */}
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={Weather}
+        alt="screenshot of weather api website"/>
+      </div>
+      <div className='port-content'>
+        <h3>Weather API</h3>
+        <p>A web application where users can check for the current and future weather reports.</p>
+        <a
+        href="https://camilleyong.github.io/weather-dashboard/"
         target="_blank"
         rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
         <a className="github"
@@ -101,41 +69,95 @@ export default function Portfolio() {
       </div>
       </div>
 
-      <div className='card'>
-      <div className='image'>
-        <img 
-        src={WorkDay} />
-      </div>
-      <div className='port-content'>
-        <h3>Orbital Odyssey</h3>
-        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
-        <a
-        href="https://stormy-sands-64982.herokuapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
-        <a className="github"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
-      </div>
-      </div>
+      {/*  CARD 3 */}
 
       <div className='card'>
       <div className='image'>
         <img 
-        src={ReduxStore} />
+        src={NoteTaker}
+        alt="screenshot of note taker website"
+        />
       </div>
       <div className='port-content'>
-        <h3>Orbital Odyssey</h3>
-        <p>Tools Used: React, Three.js, Express.js, graphQL, CSS, jsonWebToken, and Node.js</p>
+        <h3>Note Taker</h3>
+        <p>A versatile web application people can use it as a note taker, to-do list, or task list.</p>
         <a
-        href="https://stormy-sands-64982.herokuapp.com/"
+        href="https://fathomless-chamber-93211.herokuapp.com/notes"
         target="_blank"
         rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
         <a className="github"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Proper-Stevo/SpaceInvaders"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+          href="https://github.com/camilleyong/note-taker"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      {/* CARD 4 */}
+
+    <div className='card'>
+      <div className='image'>
+        <img 
+        src={ResumeCreator}
+        alt="screenshot of resume creator website"
+        />
+      </div>
+      <div className='port-content'>
+        <h3>Resume Creator</h3>
+        <p>A MERN web application where it automatically generates resumes for users who are looking for an easy and professional resume.</p>
+        <a
+        href="https://fierce-ravine-29010.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/cindyung56/resume-creator"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      {/* CARD 5 */}
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={WorkDay}
+        alt="screenshot of work day app"
+        />
+      </div>
+      <div className='port-content'>
+        <h3>Workday Planner</h3>
+        <p>A web application where everyday working people can keep track of their tasks.</p>
+        <a
+        href="https://camilleyong.github.io/workday-planner/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/camilleyong/workday-planner"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
+      </div>
+      </div>
+
+      {/* CARD 6 */}
+
+      <div className='card'>
+      <div className='image'>
+        <img 
+        src={ReduxStore} 
+        alt="screenshot of redux e-commerce website"
+        />
+      </div>
+      <div className='port-content'>
+        <h3>Redux E-Commerce Store</h3>
+        <p>A responsive Redux website where it allows consumers to purchase and browse through an online store.</p>
+        <a
+        href="https://enigmatic-temple-31565.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl custom-icon"></i></a>
+        <a className="github"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/camilleyong/redux-store"><i className="fa-brands fa-github fa-2xl custom-icon"></i></a>
       </div>
       </div>
 
