@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description
-I have created my portfolio to showcase myself and my work by using React, CSS, JavaScript, Bootstrap, Google Fonts, Font Awesome, and Node.js. 
+Created a professional portfolio using MERN, Javascript, Google Fonts, Font Awesome, and Boostrap. This is my main portfolio to showcase my most proud projects, and a small background about me.
 
 ## Table of Contents 
 
