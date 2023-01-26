@@ -18,11 +18,12 @@ export default function Home() {
             <div className='content'>
             <div className='title-name'>
             Welcome
+            </div>
+            <p>━</p>
             <p className='introduction'>Camille Yong
             <br></br>
             Software Engineer | FrontEnd Web Developer
             </p>
-            </div>
             </div>
             </div>
         </div>
