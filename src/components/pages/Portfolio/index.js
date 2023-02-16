@@ -153,7 +153,7 @@ export default function Portfolio() {
         <h3>Redux E-Commerce Store</h3>
         <p>A responsive Redux website where it allows consumers to purchase and browse through an online store.</p>
         <a
-        href="https://enigmatic-temple-31565.herokuapp.com/"
+        href="https://reduxmiscstore.herokuapp.com/"
         target="_blank"
         rel="noopener noreferrer"><i className="fa-sharp fa-solid fa-link fa-2xl port-icon"></i></a>
         <a className="github"
