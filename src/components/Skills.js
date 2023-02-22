@@ -12,6 +12,7 @@ import Node from "../icons/node-js.png";
 import ReactPic from "../icons/react.png";
 import Handlebars from "../icons/handlebars.png";
 import Redux from "../icons/redux.png";
+import WordPress from "../icons/wordpress.png";
 
 export default function Skills() {
   return (
@@ -22,16 +23,15 @@ export default function Skills() {
       <img className="col-2 col-md-1 icon" src={Css} alt="css icon"></img>
       <img className="col-2 col-md-1 icon" src={JavaScript} alt="javascript icon"></img>
       <img className="col-2 col-md-1 icon" src={Jquery} alt="jquery icon"></img>
-
       <img className="col-2 col-md-1 icon" src={ReactPic} alt="react icon"></img>
       <img className="col-2 col-md-1 icon" src={Node} alt="node icon"></img>
       <img className="col-2 col-md-1 icon" src={Express} alt="express icon"></img>
       <img className="col-2 col-md-1 icon" src={Mongo} alt="mongodb icon"></img>
-
       <img className="col-2 col-md-1 icon" src={Mysql} alt="mysql icon"></img>
       <img className="col-2 col-md-1 icon" src={Github} alt="github icon"></img>
       <img className="col-2 col-md-1 icon" src={Handlebars} alt="handlebars icon"></img>
       <img className="col-2 col-md-1 icon" src={Redux} alt="redux icon"></img>
+      <img className="col-2 col-md-1 icon" src={WordPress} alt="wordpress icon"></img> 
       </div>
      </div>
   );
