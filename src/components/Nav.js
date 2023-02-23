@@ -27,7 +27,7 @@ export default function OffcanvasExample() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#home" className='link'>
-                    <i class="fa-sharp fa-solid fa-user"></i>
+                    <i class="fa-sharp fa-solid fa-house"></i>
                     Home
                   </Nav.Link>
                   <Nav.Link href="#about" className='link'>
