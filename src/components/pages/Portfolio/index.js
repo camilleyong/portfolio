@@ -12,12 +12,6 @@ import BookSearch from '../../assets/booksearch.png';
 
 export default function Portfolio() {
   return (
-  //   <Parallax
-  //   bgImage={Hallway}
-  //   bgImageAlt="arched hallway"
-  //   strength={800}
-  //   className="about-image"
-  // >
   <div>
     <h1 className='port-title' id="portfolio">PORTFOLIO</h1>
     <body className='body'>
