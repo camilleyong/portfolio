@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30c454ce.css",
-    "main.js": "/portfolio/static/js/main.1a659ba6.js",
+    "main.js": "/portfolio/static/js/main.bbebabc9.js",
     "static/media/redux-store.png": "/portfolio/static/media/redux-store.0af74ae8dac01fd3abdc.png",
     "static/media/augustine-wong-T0BYurbDK_M-unsplash.jpg": "/portfolio/static/media/augustine-wong-T0BYurbDK_M-unsplash.44d997b8a4614ee173c9.jpg",
     "static/media/roma-kaiuk-1HN3li_kDVw-unsplash.jpg": "/portfolio/static/media/roma-kaiuk-1HN3li_kDVw-unsplash.d3267dbe5938b613bc46.jpg",
@@ -14,14 +14,15 @@
     "static/media/bady-abbas-hxi_yRxODNc-unsplash.jpg": "/portfolio/static/media/bady-abbas-hxi_yRxODNc-unsplash.ff4ef78eb29d8d29b077.jpg",
     "static/media/notetaker.png": "/portfolio/static/media/notetaker.4146d9208c1c277ae041.png",
     "static/media/react.png": "/portfolio/static/media/react.0258a39c0da07bd24e39.png",
+    "static/media/wordpress.png": "/portfolio/static/media/wordpress.11ed091523e3152b651f.png",
     "static/media/my-sql.png": "/portfolio/static/media/my-sql.503cfdd887631c88e6bc.png",
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
     "main.30c454ce.css.map": "/portfolio/static/css/main.30c454ce.css.map",
-    "main.1a659ba6.js.map": "/portfolio/static/js/main.1a659ba6.js.map"
+    "main.bbebabc9.js.map": "/portfolio/static/js/main.bbebabc9.js.map"
   },
   "entrypoints": [
     "static/css/main.30c454ce.css",
-    "static/js/main.1a659ba6.js"
+    "static/js/main.bbebabc9.js"
   ]
 }
