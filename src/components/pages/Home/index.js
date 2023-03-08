@@ -22,7 +22,7 @@ export default function Home() {
             <p>━</p>
             <p className='introduction'>Camille Yong
             <br></br>
-            Software Engineer | FrontEnd Web Developer
+            Frontend Software Developer
             </p>
             </div>
             </div>
