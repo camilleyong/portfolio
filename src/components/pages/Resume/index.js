@@ -19,7 +19,7 @@ export default function Resume() {
         id='resumeBtn'
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1bZSUrhhbSziPqpYxhxJ3rUp2uiMZbuCZ/view?usp=sharing" role="button">Download Resume</a>
+        href="https://drive.google.com/file/d/1KTeFXlhvuf8FcsKwOPfiqmIu3cCsyvfs/view?usp=sharing" role="button">Download Resume</a>
 
       <a className="btn btn-primary"
         id='resumeBtn'
@@ -42,7 +42,7 @@ export default function Resume() {
             <div className="card-body">
               <h5 className="card-title">Backend Skills</h5>
               <p className="card-text">
-                React, Node.js, Express, Sequelize, MySQL, MongoDB, NoSQL,
+                Node.js, Express, Sequelize, MySQL, MongoDB, NoSQL,
                 Handlebars, Redux
               </p>
             </div>
