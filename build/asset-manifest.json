@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30c454ce.css",
-    "main.js": "/portfolio/static/js/main.91cb9049.js",
+    "main.js": "/portfolio/static/js/main.4d64d171.js",
     "static/media/redux-store.png": "/portfolio/static/media/redux-store.0af74ae8dac01fd3abdc.png",
     "static/media/augustine-wong-T0BYurbDK_M-unsplash.jpg": "/portfolio/static/media/augustine-wong-T0BYurbDK_M-unsplash.44d997b8a4614ee173c9.jpg",
     "static/media/booksearch.png": "/portfolio/static/media/booksearch.357149fdec4b68a494ef.png",
@@ -21,10 +21,10 @@
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
     "main.30c454ce.css.map": "/portfolio/static/css/main.30c454ce.css.map",
-    "main.91cb9049.js.map": "/portfolio/static/js/main.91cb9049.js.map"
+    "main.4d64d171.js.map": "/portfolio/static/js/main.4d64d171.js.map"
   },
   "entrypoints": [
     "static/css/main.30c454ce.css",
-    "static/js/main.91cb9049.js"
+    "static/js/main.4d64d171.js"
   ]
 }
