@@ -15,6 +15,8 @@ import Redux from "../icons/redux.png";
 import WordPress from "../icons/wordpress.png";
 import Canva from "../icons/canva.png";
 import Figma from "../icons/figma.png";
+import Tailwind from "../icons/tailwindcss.png";
+import Next from "../icons/nextjs.png";
 
 export default function Skills() {
   return (
@@ -33,6 +35,8 @@ export default function Skills() {
       <img className="col-2 col-md-1 icon" src={Github} alt="github icon"></img>
       <img className="col-2 col-md-1 icon" src={Handlebars} alt="handlebars icon"></img>
       <img className="col-2 col-md-1 icon" src={Redux} alt="redux icon"></img>
+      <img className="col-2 col-md-1 icon" src={Next} alt="nextjs icon"></img>
+      <img className="col-2 col-md-1 icon" src={Tailwind} alt="tailwindcss icon"></img>
       <img className="col-2 col-md-1 icon" src={WordPress} alt="wordpress icon"></img>
       <img className="col-2 col-md-1 icon" src={Canva} alt="canva icon"></img>
       <img className="col-2 col-md-1 icon" src={Figma} alt="figma icon"></img> 
