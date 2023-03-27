@@ -19,7 +19,7 @@ export default function Resume() {
         id='resumeBtn'
         target="_blank"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1Jd3azZmOSCdPROZR9VsRd9m574ozpLuU/view?usp=sharing" role="button">Download Resume</a>
+        href="https://drive.google.com/file/d/1sQYMbx9UOoKC9D86xfxE1glapm_7jXeW/view?usp=sharing" role="button">Download Resume</a>
 
       <a className="btn btn-primary"
         id='resumeBtn'
